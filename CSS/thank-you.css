@@ -1,0 +1,18 @@
+#thanks h3{
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 300%;
+}
+#thanks{
+
+  background-color: black;
+}
+
+#main{
+  min-height: 100%;
+  margin-bottom: 100%;
+}
+
+#push{
+  height: 160px;
+}

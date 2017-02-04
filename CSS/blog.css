@@ -1,0 +1,63 @@
+.menu{
+  margin-left: 250px;
+}
+
+.menu li{
+  display: inline;
+  padding: 5px;
+  font-family: Open Sans Condensed;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.menu li a{
+  font-family: Open Sans Condensed;
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.menu li:hover{
+  border-bottom: 2px solid #f2f2f2;
+  cursor: pointer;
+}
+
+h2{
+  font-size: 200%;
+  margin-left: 300px;
+}
+
+h2 a{
+  font-family: Open Sans Condensed, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:hover{
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.blog{
+  width: 75%;
+}
+
+.blog p{
+  margin-left: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+  .blog{
+    width: 100%;
+  }
+  .menu{
+    margin-left: 25px;
+  }
+  h2{
+    font-size: 150%;
+    margin-left: 50px;
+  }
+  .blog p{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
