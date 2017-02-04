@@ -4,6 +4,6 @@ $container.imagesLoaded(function(){
         itemSelector: '.photo',
         columnWidth: 1,
     });
-		document.getElementById('myfooter').style.display ="block";
+		document.getElementById('#footer').style.display ="block";
 
 });
