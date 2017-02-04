@@ -10,7 +10,6 @@ form {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   line-height: 1.2;
 }
 
@@ -94,11 +93,6 @@ input[type=reset]{
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
   opacity: .5;
 }
-
-.main{
-  min-height: 100%;
-}
-
 
 @media only screen and (max-width: 480px) {
   form{

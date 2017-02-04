@@ -1,3 +1,13 @@
+$(document).keydown(function(event){
+  if(event.which == 37){
+    plusSlide(-1);
+  }else if(event.which == 39){
+    plusSlide(1);
+  }else if(event.which == 27){
+    closeCarousel();
+  }
+});
+
 function openCarousel(){
   document.getElementById('myCarousel').style.display = "block";
   var mySlides2 = document.getElementsByClassName('slides');
