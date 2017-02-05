@@ -1,18 +1,6 @@
 #thanks h3{
+  font-family: Open Sans Condensed;
   text-align: center;
   color: #aaaaaa;
   font-size: 300%;
-}
-#thanks{
-
-  background-color: black;
-}
-
-#main{
-  min-height: 100%;
-  margin-bottom: 100%;
-}
-
-#push{
-  height: 160px;
 }
