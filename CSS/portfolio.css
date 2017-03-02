@@ -1,0 +1,197 @@
+main, body{
+  width: 100%;
+}
+
+h2, h4{
+  text-align:center;
+  text-transform: uppercase;
+}
+
+.table{
+  padding: 20px;
+  padding-top: 5px;
+  width: 75%;
+  margin: 0px auto;
+}
+
+table ul li{
+  list-style-position: inside;
+}
+table, tr, td{
+  margin: 10px;
+  vertical-align: top;
+}
+
+td, tr{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#col2{
+  border-left: 1px solid black;
+}
+
+.skills{
+  width: 80%;
+  color: #aaaaaa;
+}
+
+.skills li{
+  background-color: #ecd0c4;
+  margin-bottom: 5px;
+  animation: 1s anim-lightspeed-in ease forwards;
+  font-family: Open Sans Condensed;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: 1px solid #ecd0c4;
+  border-top-right-radius: 7%;
+  border-bottom-right-radius: 7%;
+  list-style-type: none;
+  line-height: 1.5;
+  padding-left: 5px;
+}
+
+@keyframes grow85 {
+  0% {width:0%;}
+  100% {width: 85%;}
+}
+
+.skills .skill-85{
+  animation-duration: 3s;
+  animation-name: grow85;
+}
+
+@keyframes grow95 {
+  0% {width:0%;}
+  100% {width: 95%;}
+}
+
+.skills .skill-95{
+  animation-duration: 3s;
+  animation-name: grow95;
+}
+
+@keyframes grow20 {
+  0% {width:0%;}
+  100% {width: 20%;}
+}
+
+.skills .skill-20{
+  animation-duration: 3s;
+  animation-name: grow20;
+}
+
+@keyframes grow30 {
+  0% {width:0%;}
+  100% {width: 30%;}
+}
+
+.skills .skill-30{
+  animation-duration: 3s;
+  animation-name: grow30;
+}
+
+@keyframes grow60 {
+  0% {width:0%;}
+  100% {width: 60%;}
+}
+
+.skills .skill-60{
+  animation-duration: 3s;
+  animation-name: grow60;
+}
+
+.interests{
+  text-align: center;
+}
+
+.interests img{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#openme:hover, #openeducation:hover{
+  cursor: pointer;
+  color: #ecd0c4;
+}
+
+#me, #education{
+  display: none;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, .90);
+  opacity: 100%;
+  z-index: 1;
+}
+
+#me #content{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+  z-index: 3;
+}
+
+#me h2, #education h2{
+  padding-top: 20px;
+  z-index: 2;
+  color: #ecd0c4;
+  line-height: 1;
+}
+
+#me p, #education p{
+  color: white;
+}
+#education p{
+  width: 75%;
+  margin: auto;
+  text-indent: 50px;
+}
+
+#me #heads{
+  text-transform: uppercase;
+  font-size: 150%;
+  color: #ffe7d3;
+  text-align: center;
+}
+
+#me table{
+  margin: auto;
+  width: 90%;
+  color: white;
+  text-align: left;
+  padding-top: 40px;
+  padding: 20px;
+}
+
+#me .table{
+  width: 80%;
+  margin: 0px auto;
+  padding: 5px;
+}
+
+#me td{
+  width: 50%;
+}
+
+#me ul{
+  text-align: center;
+}
+
+#me li{
+  display: inline;
+  text-align: center;
+  color: white;
+  line-height: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#me h4{
+  text-align: left;
+  line-height: 2.5;
+}
